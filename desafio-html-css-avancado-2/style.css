@@ -1,0 +1,82 @@
+/* RESETS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    margin: 5px;
+    width: 335px;
+    height: 431px;
+}
+
+/* LISTA DE IMAGENS */
+
+.images{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images .image1{
+    background-image: url('../src/image/6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images .image2{
+    background-image: url('../src/image/3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.images .image3{
+    background-image: url('../src/image/4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images .image4{
+    background-image: url('../src/image/5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images .description{
+    margin-top: 325px;
+    margin-left: 25px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 720px){
+    .images{
+        margin-top: 20px;
+    }
+    .images .description{
+        margin-top: 360px;
+        margin-left: 35px;
+    }
+}
